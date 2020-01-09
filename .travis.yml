@@ -1,5 +1,10 @@
 dist: bionic
 
+addons:
+  apt:
+    packages:
+      - libboost-dev
+
 env:
  - CC=clang CXX=clang++ STD=14
  - CC=gcc CXX=g++ STD=14
